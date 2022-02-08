@@ -1,0 +1,32 @@
+{
+    "config": {
+        "abort": {
+            "no_lights_found": "No lights were found on this home assistant instance"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_ip": "Ip is invallid, please enter a valid IPv4 address",
+            "invalid_port": "The port passed is not valid, please enter a port number between 0 and 65536",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "ligth_groups": {
+                "data": {
+                    "bottom": "bottom",
+                    "left": "left",
+                    "right": "right",
+                    "top": "top"
+                },
+                "title": "please select the lights to controll"
+            },
+            "user": {
+                "data": {
+                    "access_key": "acces key (not implemented)",
+                    "host": "Host",
+                    "port": "Port"
+                },
+                "title": "enter hyperion server information"
+            }
+        }
+    }
+}

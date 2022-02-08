@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Server information",
+        "data": {
+          "host": "[%key:common::config_flow::data::host%]",
+          "port": "[%key:common::config_flow::data::port%]",
+          "access_key": "acces key (not implemented)"
+        }
+      },
+      "ligth_groups": {
+        "title": "Select lights to controll",
+        "data": {
+          "left": "left",
+          "right": "right",
+          "top": "top",
+          "bottom": "bottom"
+        }
+      },
+      "hyperion_settings": {
+        "title": "Hyperion setting",
+        "description": "select the amount of leds assigned to the side of the display",
+        "data": {
+          "left": "left",
+          "right": "right",
+          "top": "top",
+          "bottom": "bottom"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_ip": "Ip is invallid, please enter a valid IPv4 address",
+      "invalid_port": "The port passed is not valid, please enter a port number between 0 and 65536",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "no_lights_found": "No lights were found on this home assistant instance"
+    }
+  }
+}

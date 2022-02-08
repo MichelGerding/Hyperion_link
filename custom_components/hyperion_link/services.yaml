@@ -1,0 +1,40 @@
+start:
+  name: Start HyperionLink
+  description: start the controll over the lights by hyperion link
+
+stop:
+  name: Stop HyperionLink
+  description: stop the controll over the lights by hyperion link
+
+change_lights:
+  name: Change controlled lights
+  description: change the lights that hyperion controlls
+  fields:
+    left:
+      name: Left
+      description: Lights left of TV
+      required: false
+      example: "light.left_of_tv"
+      entity:
+        domain: light
+    right:
+      name: Right
+      description: Lights right of TV
+      required: false
+      example: "light.right_of_tv"
+      entity:
+        domain: light
+    top:
+      name: Above
+      description: Lights above the TV
+      required: false
+      example: "light.above_the_tv"
+      entity:
+        domain: light
+    bottom:
+      name: Below
+      description: Lights below the tv
+      required: false
+      example: "light.below_the_tv"
+      entity:
+        domain: light

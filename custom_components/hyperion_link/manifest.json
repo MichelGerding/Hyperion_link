@@ -1,0 +1,17 @@
+{
+  "domain": "hyperion_link",
+  "name": "hyperion_link",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/hyperion_link",
+  "requirements": [
+    "hyperion-link>=0.0.23"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@michelgerding"
+  ],
+  "iot_class": "local_push"
+}
